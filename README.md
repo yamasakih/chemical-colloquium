@@ -73,12 +73,6 @@ git clone https://github.com/yamasakih/chemical-colloquium.git
 conda install -y -c rdkit rdkit
 ```
 
-処理がすべて終了したら続けて以下のように実行します
-
-```
-conda install -y numpy==1.13.1
-```
-
 インストールが完了したら作業終了です。
 
 #### Macの場合
@@ -133,12 +127,6 @@ pyenv global anaconda3-4.1.1
 
 ```
 conda install -y -c rdkit rdkit
-```
-
-処理がすべて終了したら続けて以下のように実行します
-
-```
-conda install -y numpy==1.13.1
 ```
 
 インストールが完了したら作業終了です。
