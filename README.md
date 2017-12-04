@@ -4,23 +4,37 @@
 
 # 事前準備について
 
-受講者の方はこのページをよく読み、事前にハンズオン環境の準備を整えておいてください 
+受講者の方はこのページをよく読み、事前にハンズオン環境の準備を整えておいてください  
 所要時間は1時間ほどです  
 
 ## 講義資料のダウンロードおよびハンズオン環境のインストール
 ハンズオン用のJupyter NotebookやRDKitをAnacondaでインストールし、講義資料を[Jupyter](http://jupyter.org/)で閲覧できるようにします
 
-### リポジトリのクローン
-Windows環境で `git` がインストールされていない場合は以下のページから `git` をインストールしてください  
+行うことは以下の２点です。
+
+- リポジトリのクローンもしくはダウンロード
+- Anacondaのインストール
+
+### リポジトリのクローンもしくはダウンロード
+Windows環境で `git` がインストールされていない場合は以下のページから `git` をインストールしてください  
 - https://git-for-windows.github.io/
 
 任意の位置(例えばホームディレクトリなど)で実行してください  
 
 ```
+git clone https://github.com/chemo-wakate/tutorial-6th.git
+```
+
+続けて
+
+```
 git clone https://github.com/yamasakih/chemical-colloquium.git
 ```
 
-もしくは、[https://github.com/yamasakih/chemical-colloquium.git](https://github.com/yamasakih/chemical-colloquium.git)をダウンロードしておいてください
+と２つのリポジトリをクローンしてください。
+
+うまくできない場合は、[https://github.com/chemo-wakate/tutorial-6th.git](https://github.com/chemo-wakate/tutorial-6th.git)と  
+[https://github.com/yamasakih/chemical-colloquium.git](https://github.com/yamasakih/chemical-colloquium.git)をダウンロードしておいてください
 
 ### Anacondaのインストール
 [Anaconda](https://www.anaconda.com/download/)を使用することでハンズオンに必要な Jupyter notebook や rdkit を使用することが可能です
