@@ -30,11 +30,21 @@ git clone https://github.com/yamasakih/chemical-colloquium.git
 
 ##### 32bit
 上記のサイトからAnaconda (Python version2.7) をダウンロードし、インストールしてください  
-**インストール中のAdd Anaconda to my PATH environment variable, Register Anaconda as my default Python 2.7という項目どちらにもチェックを入れてください**
+インストール中の  
+
+- Add Anaconda to my PATH environment variable, 
+- Register Anaconda as my default Python 2.7
+
+という項目どちらにもチェックを入れてください
 
 ##### 64bit
 上記のサイトからAnaconda (Python version3.6) をダウンロードし、インストールしてください  
-**インストール中のAdd Anaconda to my PATH environment variable, Register Anaconda as my default Python 3.6という項目どちらにもチェックを入れてください**
+インストール中の  
+
+- Add Anaconda to my PATH environment variable, 
+- Register Anaconda as my default Python 3.6
+
+という項目どちらにもチェックを入れてください
 
 ##### モジュールのインストール
 続けて追加で必要なモジュールをインストールします。
@@ -42,7 +52,7 @@ git clone https://github.com/yamasakih/chemical-colloquium.git
 スタートメニューからAnaconda→Anaconda Promptを起動します
 (少し起動に時間がかかると思います)
 
-起動したら以下のように実行します
+起動したら以下のように実行します  
 (パソコンの性能によっては長いと30分ぐらいかかります)
 
 ```
@@ -59,8 +69,8 @@ conda install -y numpy==1.13.1
 
 #### Macの場合
 ##### Homebrewのインストール
-まずHomebrewをインストールします
-Homebrewはこちらのサイトの指示に従ってインストールできます
+まずHomebrewをインストールします  
+Homebrewはこちらのサイトの指示に従ってインストールできます  
 [Homebrew macOS 用パッケージマネージャー](https://brew.sh/index_ja.html)
 
 ターミナルを起動して以下のように実行するとHomebrewがインストールされます。
@@ -103,8 +113,8 @@ pyenv global anaconda3-4.1.1
 と入力しデフォルトの起動をインストールしたanaconda3-4.1.1にします。
 
 ##### モジュールのインストール
-最後に必要なモジュールをインストールします
-以下のように実行します
+最後に必要なモジュールをインストールします  
+以下のように実行します  
 (パソコンの性能によっては長いと30分ぐらいかかります)
 
 ```
