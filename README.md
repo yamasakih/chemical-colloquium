@@ -17,10 +17,19 @@ Windows環境で `git` がインストールされていない場合は以下の
 任意の位置(例えばホームディレクトリなど)で実行してください  
 
 ```
+git clone https://github.com/chemo-wakate/tutorial-6th.git
+```
+
+続けて
+
+```
 git clone https://github.com/yamasakih/chemical-colloquium.git
 ```
 
-もしくは、[https://github.com/yamasakih/chemical-colloquium.git](https://github.com/yamasakih/chemical-colloquium.git)をダウンロードしておいてください
+と２つのリポジトリをクローンしてください。
+
+うまくできない場合は、[https://github.com/chemo-wakate/tutorial-6th.git](https://github.com/chemo-wakate/tutorial-6th.git)と  
+[https://github.com/yamasakih/chemical-colloquium.git](https://github.com/yamasakih/chemical-colloquium.git)をダウンロードしておいてください
 
 ### Anacondaのインストール
 [Anaconda](https://www.anaconda.com/download/)を使用することでハンズオンに必要な Jupyter notebook や rdkit を使用することが可能です
